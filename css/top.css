@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+  background-color: #f9f8f6; }
+
+h1 {
+  margin: 0;
+  padding: 0; }
+
+.top_back_img {
+  background-image: url("../images/top/ca_banner.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 280px;
+  width: 700px;
+  background-position: center top; }
+
+body {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media (min-width: 550px) {
+  .sp_navi {
+    display: none; } }
+@media (max-width: 550px) {
+  .pc_navi {
+    display: none; } }
+.side_menu {
+  float: right;
+  display: inline-block; }
+
+.pc_navi {
+  float: left;
+  width: auto;
+  margin-top: 70px; }
+
+.pc_navi_li {
+  width: 446px;
+  bottom: 0; }
+  .pc_navi_li li {
+    list-style: left;
+    float: right;
+    bottom: 0;
+    padding: 0px 10px 0px 10px; }
+
+/*# sourceMappingURL=top.css.map */
